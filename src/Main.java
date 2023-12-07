@@ -1,3 +1,4 @@
+import in.technous.filehandling.*;
 import in.technous.practies.*;
 
 import java.util.Scanner;
@@ -74,6 +75,58 @@ public class Main {
                 EnumrationDemo e1=new EnumrationDemo();
                 e1.test();
                 break;
+            case 14:
+                OutputStream o1=new OutputStream();
+                o1.test();
+                break;
+            case 15:
+                InputStream ii1=new InputStream();
+                ii1.inputstream();
+                break;
+//            case 16:
+//                BufferedInputStreamEx b1=new BufferedInputStreamEx();
+//                b1.test1();
+            case 17:
+                BufferedOutputStreamEx bb1=new BufferedOutputStreamEx();
+                bb1.bufferedoutput();
+                break;
+            case 18:
+                ByteArrayInputStreamEx bb2=new ByteArrayInputStreamEx();
+                bb2.bytearrayinput();
+                break;
+            case 19:
+                ByteOutputStreamEx bb3=new ByteOutputStreamEx();
+                bb3.bytearrayoutput();
+                break;
+            case 20:
+                DataInputOutEx bb4=new DataInputOutEx();
+                bb4.datainputoutput();
+                break;
+            case 21:
+                FileReaderEx bb5=new FileReaderEx();
+                bb5.filereader();
+                break;
+            case 22:
+                FileWriterEx bb6=new FileWriterEx();
+                bb6.filewriter();
+                break;
+            case 23:
+                FileUploadEx bb7=new FileUploadEx();
+                bb7.fileupload();
+                break;
+//            case 24:
+//                InputStreamReader bb8=new InputStreamReader();
+//                bb8.inputstreamreader();
+//                break;
+//            case 25:
+//                OutputStreamWriterEx bb9=new OutputStreamWriterEx();
+//                outputstreamwriter();
+//                break;
+
+
+
+
+
 
 
         }
